@@ -2292,7 +2292,7 @@ function library:Init()
 		self.base.Parent = script.Parent.Parent
 -- 	elseif syn then
 -- 		syn.protect_gui(self.base)
--- 		self.base.Parent = game:GetService"CoreGui"
+		self.base.Parent = game:GetService"CoreGui"
 	end
 	self.main = self:Create("ImageButton", {
 		AutoButtonColor = false,
